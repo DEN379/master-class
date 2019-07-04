@@ -116,54 +116,6 @@ h5 {
     font-size: 25px;
 }
 
-@media screen and (max-width: 576px) {
-    .wrapper__wheel__icon {
-        width: 100%;
-    }
-
-    .time {
-        margin-bottom: 30px;
-    }
-
-    .wrapper__icons {
-        margin-top: 60px;
-    }
-
-    .wrapper__wheel {
-        margin: 10px 0px 10px;
-    }
-
-    .program__bottom__paragraph{
-        width: auto!important;
-    }
-    .human__img{
-       margin-left: 50px!important;
-       margin-bottom: 40px;
-    }
-    .content__paragraph{
-        width: auto!important;
-    }
-    .regristration__paragraph{
-        width: auto!important;
-    }
-    .bottom__paragraph{
-        width: auto!important;
-    }
-    .any{
-        flex-direction: column;
-    }
-    .privacy__policy{
-        margin-bottom: 20px;
-    }
-    .form__input__button{
-        margin-top: 20px;
-    }
-}
-
-@media screen and (max-width: 768px) {}
-
-
-
 /* PROGRAM */
 
 .program {
@@ -444,4 +396,134 @@ input::-webkit-input-placeholder {
 
 .footer__rights{
     margin-right: 60px;
+}
+
+@media screen and (max-width: 1199px) {
+    .wrapper__wheel__icon  {
+        width: 100%;
+    }
+    .human__img {
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .wrapper__icon{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .wrapper__paragraph{
+        font-size: 0.8rem;
+    }
+    .program__paragraph{
+        font-size: 1rem;
+        width: auto;
+        margin-left: 0px;
+    }
+    .human__img {
+        margin-left: 25%;
+    }
+    .form__input{
+        margin-right: 200px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .human__img {
+        margin: 40px 0;
+        margin-left: 31%;
+    }
+    .registration__form input{
+        margin-left: 27%;
+    }
+    .registration__form input:last-child{
+        margin-left: 37%;
+    }
+    .footer__rights{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .wrapper__wheel__icon {
+        width: 100%;
+    }
+
+    .time {
+        margin-bottom: 30px;
+    }
+
+    .wrapper__icons {
+        margin-top: 60px;
+    }
+
+    .wrapper__wheel {
+        margin: 10px 0px 10px;
+    }
+
+    .program__bottom__paragraph{
+        width: auto!important;
+    }
+    .human__img{
+       margin-left: 50px;
+       margin-bottom: 40px;
+    }
+    .content__paragraph{
+        width: auto!important;
+    }
+    .regristration__paragraph{
+        width: auto!important;
+    }
+    .bottom__paragraph{
+        width: auto!important;
+    }
+    .any{
+        flex-direction: column;
+    }
+    .privacy__policy{
+        margin-bottom: 20px;
+    }
+    .form__input__button{
+        margin-top: 20px;
+    }
+    .wrapper__icons{
+        display: none;
+    }
+    .program__paragraph{
+        font-size: 1rem;
+    }
+    .plan__button{
+        width: 230px;
+    }
+    .program__title{
+        font-size: 23px;
+    }
+    .registration__form input {
+        margin-left: 9%;
+    }
+    .major__contacts{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .major__name{
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .major__icon{
+        margin: 0 auto;
+    }
+    .major__freelance{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .registration__form input:last-child {
+        margin-left: 0px;
+    }
+    .human_png{
+        display: flex;
+        justify-content: center;
+    }
 }
