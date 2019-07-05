@@ -441,6 +441,9 @@ input::-webkit-input-placeholder {
     .footer__rights{
         display: none;
     }
+    .wrapper__icons{
+        display: none;
+    }
     
 }
 
